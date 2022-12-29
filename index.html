@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d6f1f7d73e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ping Coming Soon</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="wrapper">
+        <div class="hero__content">
+          <div class="hero__info">
+            <img src="img/logo.svg" alt="logo" class="hero__logo" />
+            <h1 class="hero__title"><span>We are launching</span> soon!</h1>
+            <p class="hero__sub-title">Subscribe and get notified</p>
+          </div>
+
+          <form action="post" class="hero__form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="hero__form--email"
+              placeholder="Your email address..."
+              required
+            />
+            <span class="hero__form--error"
+              >Please provide a valid email address</span
+            >
+            <button type="submit" class="hero__form--submit">Notify Me</button>
+          </form>
+        </div>
+
+        <div class="hero__img">
+          <img src="img/illustration-dashboard.png" alt="dashboard image" />
+        </div>
+
+        <footer class="hero__footer">
+          <ul class="hero__links">
+            <li class="hero__links--link">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="hero__links--link">
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="hero__links--link">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+
+          <span class="copyright">© Copyright Ping. All rights reserved.</span>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
